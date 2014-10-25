@@ -16,9 +16,9 @@ BuildArch:	noarch
 Cucumber Generators and Runtime for Rails.
 
 %files
-%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/
-%{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%dir %{gem_dir}/gems/%{rbname}-%{version}/
+%{gem_dir}/gems/%{rbname}-%{version}/lib/
+%{gem_dir}/specifications/%{rbname}-%{version}.gemspec
 
 #----------------------------------------------------------------------------
 
@@ -32,7 +32,7 @@ Conflicts:	%{name} < 1.4.1
 Documents, RDoc & RI documentation for %{name}.
 
 %files doc
-%{ruby_gemdir}/doc/%{rbname}-%{version}
+%{gem_dir}/doc/%{rbname}-%{version}
 
 #----------------------------------------------------------------------------
 
