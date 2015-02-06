@@ -3,7 +3,7 @@
 Summary:	Cucumber Generators and Runtime for Rails
 Name:		rubygem-%{rbname}
 Version:	1.4.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Ruby
 Url:		http://github.com/aslakhellesoy/%{rbname}
