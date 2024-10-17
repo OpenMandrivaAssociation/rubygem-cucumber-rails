@@ -6,7 +6,7 @@ Version:	1.4.1
 Release:	2
 License:	MIT
 Group:		Development/Ruby
-Url:		http://github.com/aslakhellesoy/%{rbname}
+Url:		https://github.com/aslakhellesoy/%{rbname}
 Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems
 Suggests:	rubygem(aruba)
